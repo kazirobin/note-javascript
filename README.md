@@ -1,4 +1,3 @@
-
 # javascript
 
 1 Primitive Types
@@ -13,56 +12,56 @@
 
 6 Closures
 
- Bitwise Operators, Type Arrays and Array Buffers
+Bitwise Operators, Type Arrays and Array Buffers
 
- Implicit, Explicit, Nominal, Structuring and Duck Typing
+Implicit, Explicit, Nominal, Structuring and Duck Typing
 
- IIFE, Modules and Namespaces
+IIFE, Modules and Namespaces
 
- Message Queue and Event Loop
+Message Queue and Event Loop
 
- setTimeout, setInterval and requestAnimationFrame
+setTimeout, setInterval and requestAnimationFrame
 
- JavaScript Engines
+JavaScript Engines
 
- DOM and Layout Trees
+DOM and Layout Trees
 
- Factories and Classes
+Factories and Classes
 
- this, call, apply and bind
+this, call, apply and bind
 
- new, Constructor, instanceof and Instances
+new, Constructor, instanceof and Instances
 
- Prototype Inheritance and Prototype Chain
+Prototype Inheritance and Prototype Chain
 
- Object.create and Object.assign
+Object.create and Object.assign
 
- map, reduce, filter
+map, reduce, filter
 
- Pure Functions, Side Effects, State Mutation and Event Propagation
+Pure Functions, Side Effects, State Mutation and Event Propagation
 
-1 Call Stack
+Call Stack
 
-1 High Order Functions
+High Order Functions
 
-1 Recursion
+Recursion
 
-1 Collections and Generators
+Collections and Generators
 
-1 Promises
+Promises
 
-1 async/await
+async/await
 
-1 Data Structures
+Expensive Operation and Big O Notation
 
-1 Expensive Operation and Big O Notation
+Inheritance, Polymorphism and Code Reuse
 
-1 Algorithms
+Partial Applications, Currying, Compose and Pipe
 
-1 Inheritance, Polymorphism and Code Reuse
+Clean Code
 
-1 Design Patterns
+Data Structures
 
-1 Partial Applications, Currying, Compose and Pipe
+Algorithms
 
-1 Clean Code
+Design Patterns
