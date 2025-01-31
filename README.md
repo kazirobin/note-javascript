@@ -1,21 +1,23 @@
+[main link](https://github.com/leonardomso/33-js-concepts?tab=readme-ov-file)
+
 ### JavaScript Topics
 
-#### **1. Primitive Data Types**  
+#### **[1. Primitive Data Types](./primitive_type/README.md)**  
+
 Overview of JavaScript's built-in primitive types: `Number`, `String`, `Boolean`, `Null`, `Undefined`, `Symbol`, and `BigInt`.
 
-#### **2. Value Types vs. Reference Types**  
+#### **[2. Value Types vs. Reference Types](./value_type/README.md)**  
 Understanding the differences between data stored by value (primitives) and by reference (objects and arrays).
 
-#### **3. Equality Operators (`==` vs `===`) and `typeof`**  
+#### **[3. Equality Operators](./equality_operator/README.md) (`==` vs `===`) and `typeof`**  
 Comparison of loose and strict equality, and the role of `typeof` in type checking.
 
-#### **4. Expressions vs. Statements**  
+#### **[4. Expressions vs. Statements](./expressions_vs_statements/README.md)**  
 Distinguishing between expressions (evaluate to a value) and statements (perform actions).
-
-#### **5. Scope in JavaScript**  
+#### **[5. Scope in JavaScript](./scope/README.md)**  
 Exploration of function scope, block scope, and lexical scope.
 
-#### **6. Closures**  
+#### **[6. Closures](./closures/README.md)**  
 Understanding closures and their use in maintaining state and encapsulation.
 
 #### **7. Advanced Concepts**  
