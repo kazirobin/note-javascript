@@ -20,14 +20,14 @@ let result = capitalizedWords.join(' ');
 
 console.log(result); // Output: "My Name Is Robin"
 
-let str = "hello world! this is javascript.";
-let words = str.split(" "); 
-let result = "";
+let str2 = "hello world! this is javascript.";
+let words2 = str2.split(" "); 
+let result2 = "";
 
-for (let i = 0; i < words.length; i++) {
-    result += words[i].charAt(0).toUpperCase() + words[i].slice(1) + " ";
+for (let i = 0; i < words2.length; i++) {
+    result2 += words2[i].charAt(0).toUpperCase() + words2[i].slice(1) + " ";
 }
 
-result = result.trim(); // Remove the trailing space
+result2 = result2.trim(); // Remove the trailing space
 
-console.log(result); // Output: "Hello World! This Is Javascript."
+console.log(result2); // Output: "Hello World! This Is Javascript."
