@@ -182,6 +182,7 @@ greet(); // ✅ Works fine
 
 ---
 
+
 ## **🔹 Summary Table**  
 
 | Scope Type  | Where Declared? | Accessible Where? | Supports `var`? | Supports `let` & `const`? |
