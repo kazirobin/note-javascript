@@ -22,7 +22,7 @@ A structured, beginner-to-advanced JavaScript guide covering all key concepts, o
 
 [9. JavaScript Closures](#9️⃣-javascript-closures)
 
-[10. JavaScript Conditions and Loops](#🔟-js-conditions-and-loops)
+[10. JavaScript Conditions and Loops](#10-js-conditions-and-loops)
 ## **📌 Phase 1: JavaScript Basics**
 
 ### **1️⃣ Call Stack**  
@@ -276,7 +276,7 @@ closureExample("World");
 
  ---
 
-### **🔟 JS Conditions and Loops**
+### **10 JS Conditions and Loops**
  
 
 In JavaScript, **conditions** are used to make decisions in code, and **loops** are used to execute a block of code multiple times. Let's break down each concept step by step.
