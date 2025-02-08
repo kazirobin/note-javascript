@@ -219,7 +219,7 @@ const sum = numbers.reduce((acc, num) => acc + num, 0); // 15
 ```
 ---
 
-### **8️⃣ [JavaScript Scope](./Scope/README.md)**  
+### **8️⃣ [JavaScript Scope](./scopes/README.md)**  
 Scope defines variable accessibility.
 
 ✔ **Global Scope** – Accessible everywhere.  
