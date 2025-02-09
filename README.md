@@ -43,7 +43,58 @@ function third() {
 }
 first();
 ```
-📌 The last function called is the first one removed from the stack.
+## Explanation of Call Stack:
+The main mistake in your explanation was a small inconsistency with how you described the order of operations and the phrasing. Here's a breakdown of the areas that could be improved:
+
+1. **Printing Inside the Function**:
+   - In your explanation, you mention "it'll print first function," but it’s clearer to explain that the print happens **immediately** when the function is executed. So, it should be more explicit that `"First function"` is printed right after `first()` is called, not after the stack is empty.
+
+2. **LIFO Principle**:
+   - The explanation of LIFO is correct, but your wording could be refined. The phrase "it'll pop from last one by one third(), second(), first()" can be clarified to emphasize the process: "The functions are popped off the stack in the reverse order they were called."
+
+3. **Minor Clarification on Stack**:
+   - When you mention the call stack, you correctly state that `first()` is added first, followed by `second()`, and `third()`. However, the use of "it's added to stack" twice could be more consistent if you say "its execution context is added to the stack" for all functions. This ensures uniformity in the explanation.
+
+
+
+## Explanation of this program & call stack:
+
+1. **first() is called**  
+   - first() is called, so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()|  
+   - `"First function"` is printed.
+
+2. **second() is called**  
+   - second() is called from inside first(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()|  
+   - `"Second function"` is printed.
+
+3. **third() is called**  
+   - third() is called from inside second(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()| third()|  
+   - `"Third function"` is printed.
+
+4. **Pop Execution Contexts (LIFO Principle)**  
+   - The stack follows the Last In, First Out (LIFO) principle, so the functions are popped off in the reverse order they were called.  
+     - **third()** completes and is removed from the stack.  
+     -  **second()** completes and is removed from the stack.  
+     - Finally, **first()** completes and is removed from the stack.  
+   - **Call Stack after all functions are completed:**  
+     |empty|
+
+
+
+
+### Key Points:
+- Each function call **pushes** its execution context onto the call stack.
+- **first()** is added to the stack first, so it starts executing first.
+
+- the function execute immediately after the function is added to the stack.
+- Functions are **popped** from the stack immediately after they finish executing.
+
 
 ---
 
