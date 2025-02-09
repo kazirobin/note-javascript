@@ -43,19 +43,6 @@ function third() {
 }
 first();
 ```
-## Explanation of Call Stack:
-The main mistake in your explanation was a small inconsistency with how you described the order of operations and the phrasing. Here's a breakdown of the areas that could be improved:
-
-1. **Printing Inside the Function**:
-   - In your explanation, you mention "it'll print first function," but it’s clearer to explain that the print happens **immediately** when the function is executed. So, it should be more explicit that `"First function"` is printed right after `first()` is called, not after the stack is empty.
-
-2. **LIFO Principle**:
-   - The explanation of LIFO is correct, but your wording could be refined. The phrase "it'll pop from last one by one third(), second(), first()" can be clarified to emphasize the process: "The functions are popped off the stack in the reverse order they were called."
-
-3. **Minor Clarification on Stack**:
-   - When you mention the call stack, you correctly state that `first()` is added first, followed by `second()`, and `third()`. However, the use of "it's added to stack" twice could be more consistent if you say "its execution context is added to the stack" for all functions. This ensures uniformity in the explanation.
-
-
 
 ## Explanation of this program & call stack:
 
