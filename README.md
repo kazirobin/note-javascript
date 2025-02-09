@@ -28,6 +28,11 @@ A structured, beginner-to-advanced JavaScript guide covering all key concepts, o
 ### **1️⃣ Call Stack**  
 The **call stack** is a mechanism JavaScript uses to manage function execution, following the **LIFO (Last In, First Out)** principle.  
 
+<img src="images/callStack.png" alt="Javascript Call Stack Sequence" height="200" width="800"/>
+
+
+
+
 #### **Example:**
 ```javascript
 function first() {
