@@ -28,6 +28,11 @@ A structured, beginner-to-advanced JavaScript guide covering all key concepts, o
 ### **1️⃣ Call Stack**  
 The **call stack** is a mechanism JavaScript uses to manage function execution, following the **LIFO (Last In, First Out)** principle.  
 
+<img src="images/callStack.png" alt="Javascript Call Stack Sequence" />
+
+
+
+
 #### **Example:**
 ```javascript
 function first() {
@@ -43,7 +48,45 @@ function third() {
 }
 first();
 ```
-📌 The last function called is the first one removed from the stack.
+
+## Explanation of this program & call stack:
+
+1. **first() is called**  
+   - first() is called, so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()|  
+   - `"First function"` is printed.
+
+2. **second() is called**  
+   - second() is called from inside first(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()|  
+   - `"Second function"` is printed.
+
+3. **third() is called**  
+   - third() is called from inside second(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()| third()|  
+   - `"Third function"` is printed.
+
+4. **Pop Execution Contexts (LIFO Principle)**  
+   - The stack follows the Last In, First Out (LIFO) principle, so the functions are popped off in the reverse order they were called.  
+     - **third()** completes and is removed from the stack.  
+     -  **second()** completes and is removed from the stack.  
+     - Finally, **first()** completes and is removed from the stack.  
+   - **Call Stack after all functions are completed:**  
+     |empty|
+
+
+
+
+### Key Points:
+- Each function call **pushes** its execution context onto the call stack.
+- **first()** is added to the stack first, so it starts executing first.
+
+- the function execute immediately after the function is added to the stack.
+- Functions are **popped** from the stack immediately after they finish executing.
+
 
 ---
 
