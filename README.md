@@ -1,70 +1,328 @@
-# Complete JavaScript Guide - Basic to Advanced
+# **Complete JavaScript Learning Guide** 🚀  
+A structured, beginner-to-advanced JavaScript guide covering all key concepts, operators, functions, objects, arrays, scope, closures, and more.
 
-## Table of Contents
+---
+> # **JavaScript Basics**
 
-1. [Introduction to JavaScript](#introduction-to-javascript)
-   - [What is a Programming Language?](#what-is-a-programming-language)
-   - [Why Learn JavaScript?](#why-learn-javascript)
-   - [Frontend and Backend Overview](#frontend-and-backend-overview)
-   - [Introduction to Web Technologies](#introduction-to-web-technologies)
-2. [History of JavaScript](#history-of-javascript)
-3. [Setting Up Development Environment](#setting-up-development-environment)
-   - [Installing Visual Studio Code](#installing-visual-studio-code)
-   - [Project Structure](#project-structure)
-4. [JavaScript Core Concepts](#javascript-core-concepts)
-   - [JavaScript Features](#javascript-features)
-   - [JavaScript Interaction](#javascript-interaction)
-   - [Variables and Data Types](#variables-and-data-types)
-   - [Truthy and Falsy Values](#truthy-and-falsy-values)
-   - [Type Conversion](#type-conversion)
-   - [JavaScript Popup Boxes](#javascript-popup-boxes)
-   - [Identifiers and Comments](#identifiers-and-comments)
-5. [JavaScript Operators](#javascript-operators)
-6. [JavaScript Control Flow](#javascript-control-flow)
-7. [JavaScript Functions](#javascript-functions)
-8. [JavaScript Debugging and Error Handling](#javascript-debugging-and-error-handling)
-9. [JavaScript Data Structures](#javascript-data-structures)
-10. [JavaScript Modern Features (ES6+)](#javascript-modern-features-es6)
-11. [JavaScript DOM and BOM](#javascript-dom-and-bom)
-12. [JavaScript Asynchronous Programming](#javascript-asynchronous-programming)
-13. [JavaScript OOP (Object-Oriented Programming)](#javascript-oop-object-oriented-programming)
-14. [Advanced JavaScript Concepts](#advanced-javascript-concepts)
-15. [JavaScript Security and Best Practices](#javascript-security-and-best-practices)
-16. [Conclusion and Next Steps](#conclusion-and-next-steps)
+[1. Call Stack](#1️⃣-call-stack) 
+
+[2. Primitive Types](#2️⃣-primitive-types)
+
+[3. Value Types vs Reference Types](#3️⃣-value-types-vs-reference-types)
+
+[4. JavaScript Operators](#4️⃣-javascript-operators)
+
+[5. JavaScript Functions](#5️⃣-javascript-functions)
+
+[6. JavaScript Objects](#6️⃣-javascript-objects)
+
+[7. JavaScript Arrays](#7️⃣-javascript-arrays)
+
+[8. JavaScript Scope](#8️⃣-javascript-scope)
+
+[9. JavaScript Closures](#9️⃣-javascript-closures)
+
+[10. JavaScript Conditions and Loops](#10-js-conditions-and-loops)
+## **📌 Phase 1: JavaScript Basics**
+
+### **1️⃣ Call Stack**  
+The **call stack** is a mechanism JavaScript uses to manage function execution, following the **LIFO (Last In, First Out)** principle.  
+
+<img src="images/callStack.png" alt="Javascript Call Stack Sequence" />
+
+
+
+
+#### **Example:**
+```javascript
+function first() {
+    console.log("First function");
+    second();
+}
+function second() {
+    console.log("Second function");
+    third();
+}
+function third() {
+    console.log("Third function");
+}
+first();
+```
+
+## Explanation of this program & call stack:
+
+1. **first() is called**  
+   - first() is called, so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()|  
+   - `"First function"` is printed.
+
+2. **second() is called**  
+   - second() is called from inside first(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()|  
+   - `"Second function"` is printed.
+
+3. **third() is called**  
+   - third() is called from inside second(), so its execution context is added to the stack.  
+   - **Call Stack at this moment:**  
+     |first()| second()| third()|  
+   - `"Third function"` is printed.
+
+4. **Pop Execution Contexts (LIFO Principle)**  
+   - The stack follows the Last In, First Out (LIFO) principle, so the functions are popped off in the reverse order they were called.  
+     - **third()** completes and is removed from the stack.  
+     -  **second()** completes and is removed from the stack.  
+     - Finally, **first()** completes and is removed from the stack.  
+   - **Call Stack after all functions are completed:**  
+     |empty|
+
+
+
+
+### Key Points:
+- Each function call **pushes** its execution context onto the call stack.
+- **first()** is added to the stack first, so it starts executing first.
+
+- the function execute immediately after the function is added to the stack.
+- Functions are **popped** from the stack immediately after they finish executing.
+
 
 ---
 
-# Complete JavaScript Guide - Basic to Advanced
+### **2️⃣ [Primitive Types](./primitive_type/README.md)**  
+JavaScript has **seven primitive data types**, which are **immutable (unchangeable)**:  
 
-## Introduction to JavaScript
+- `Number` – Numeric values (`let x = 10;`)
+- `String` – Text values (`let name = "John";`)
+- `Boolean` – True or false (`let isValid = true;`)
+- `Null` – Empty or unknown value (`let value = null;`)
+- `Undefined` – A variable declared but not assigned (`let x;`)
+- `Symbol` – Unique identifiers (`let id = Symbol("id");`)
+- `BigInt` – Large integers (`let bigNumber = 12345678901234567890n;`)
 
-JavaScript is a powerful, high-level programming language primarily used for web development. It enables developers to create interactive and dynamic web pages, making it one of the most widely used programming languages today.
+---
 
-This guide is structured to help both beginners and experienced developers master JavaScript, covering everything from basic syntax to advanced concepts.
+### **3️⃣ Value Types vs Reference Types**  
+JavaScript stores data in two ways:  
 
-### What is a Programming Language?
+✔ **Value Types (Primitive Data)**: Stored **directly in memory**.  
+✔ **Reference Types (Objects, Arrays, Functions)**: Stored **by reference** in memory.  
 
-A **programming language** is a set of instructions that tells a computer what to do. JavaScript is a **high-level, interpreted** language designed to add interactivity to web pages.
+#### **Example:**
+```javascript
+let a = 10;
+let b = a;  // Copying the value (primitive type)
+b = 20;
+console.log(a); // 10 (original value remains unchanged)
+```
+```javascript
+let obj1 = { name: "Alice" };
+let obj2 = obj1;  // Reference to the same object
+obj2.name = "Bob";
+console.log(obj1.name); // "Bob" (changes reflect in both)
+```
 
-### Why Learn JavaScript?
+---
 
-- **Core language of the web** - Supported by all modern browsers.
-- **Versatile** - Used in both frontend and backend development.
-- **High demand** - Many job opportunities in web development.
-- **Large community** - Extensive learning resources available.
+### **4️⃣ JavaScript Operators**  
+Operators allow us to perform calculations, comparisons, and logical operations.
 
-### Frontend and Backend Overview
+#### **Types of JavaScript Operators:**
 
-JavaScript is used in both **frontend** and **backend** development:
-- **Frontend**: Works with HTML and CSS to build interactive web pages.
-- **Backend**: Used with **Node.js** to handle server-side logic.
+1️⃣ **Arithmetic Operators** – Perform math calculations.  
+   ```javascript
+   let sum = 10 + 5;  // Addition (+)
+   let power = 2 ** 3; // Exponentiation (**)
+   ```
 
-### Introduction to Web Technologies
+2️⃣ **Assignment Operators** – Assign values.  
+   ```javascript
+   let x = 5;
+   x += 3;  // Same as x = x + 3;
+   ```
 
-- **HTML (HyperText Markup Language)**: Defines webpage structure.
-- **CSS (Cascading Style Sheets)**: Styles webpages.
-- **JavaScript**: Adds interactivity and dynamic content.
-- **APIs (Application Programming Interfaces)**: Enable communication between web services.
+3️⃣ **Comparison Operators** – Compare values.  
+   ```javascript
+   console.log(5 == "5");   // true (loose equality)
+   console.log(5 === "5");  // false (strict equality)
+   ```
+
+4️⃣ **Logical Operators** – Combine conditions.  
+   ```javascript
+   console.log(true && false); // false (AND)
+   console.log(true || false); // true (OR)
+   ```
+
+5️⃣ **Bitwise Operators** – Work at the binary level.  
+   ```javascript
+   let bitwiseAnd = 5 & 1; // AND operation
+   ```
+
+6️⃣ **Ternary Operator** – Shorter `if-else`.  
+   ```javascript
+   let age = 20;
+   let status = age >= 18 ? "Adult" : "Minor";
+   ```
+
+---
+
+### **5️⃣ JavaScript Functions**  
+Functions help break code into reusable blocks.
+
+#### **Types of Functions:**
+- **Function Declaration**  
+   ```javascript
+   function greet(name) {
+       return "Hello, " + name + "!";
+   }
+   ```
+- **Function Expression**  
+   ```javascript
+   const greet = function(name) {
+       return "Hello, " + name + "!";
+   };
+   ```
+- **Arrow Function**  
+   ```javascript
+   const greet = (name) => "Hello, " + name + "!";
+   ```
+- **IIFE (Immediately Invoked Function Expression)**  
+   ```javascript
+   (function() {
+       console.log("I am an IIFE");
+   })();
+   ```
+- **Generator Function**  
+   ```javascript
+   function* generatorFunction() {
+       yield 1;
+       yield 2;
+       yield 3;
+   }
+   ```
+
+---
+
+### **6️⃣ JavaScript Objects**  
+Objects store data in **key-value** pairs.
+
+#### **Creating an Object:**
+```javascript
+const person = {
+    name: "John",
+    age: 30,
+    greet: function() {
+        return "Hello, " + this.name;
+    }
+};
+```
+
+---
+### **7️⃣ JavaScript Arrays**  
+
+Arrays in JavaScript are special objects used to store multiple values in a single variable. They allow efficient data manipulation and are widely used in JavaScript programming.
+
+#### Creating an Array
+
+#### 1. **Using Array Literal**
+```javascript
+const fruits = ["Apple", "Banana", "Cherry"];
+```
+
+#### 2. **Using the `new Array()` Constructor**
+```javascript
+const fruits = new Array("Apple", "Banana", "Cherry");
+```
+
+#### Accessing Array Elements
+```javascript
+console.log(fruits[0]); // "Apple"
+console.log(fruits[1]); // "Banana"
+```
+
+#### Modifying Array Elements
+```javascript
+fruits[1] = "Mango";
+console.log(fruits); // ["Apple", "Mango", "Cherry"]
+```
+
+#### Array Properties and Methods
+
+#### 1. **Finding Array Length**
+```javascript
+console.log(fruits.length); // 3
+```
+
+#### 2. **Adding Elements**
+```javascript
+fruits.push("Orange"); // Adds to the end
+fruits.unshift("Grapes"); // Adds to the beginning
+```
+
+#### 3. **Removing Elements**
+```javascript
+fruits.pop(); // Removes last element
+fruits.shift(); // Removes first element
+```
+
+#### 4. **Iterating Over an Array**
+```javascript
+fruits.forEach(fruit => console.log(fruit));
+```
+
+#### 5. **Array Methods (Map, Filter, Reduce)**
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const squared = numbers.map(num => num * num); // [1, 4, 9, 16, 25]
+
+const evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]
+
+const sum = numbers.reduce((acc, num) => acc + num, 0); // 15
+```
+---
+
+### **8️⃣ [JavaScript Scope](./scopes/README.md)**  
+Scope defines variable accessibility.
+
+✔ **Global Scope** – Accessible everywhere.  
+✔ **Function Scope** – Accessible only inside functions.  
+✔ **Block Scope** – Accessible inside `{}`.
+
+```javascript
+let globalVar = "I am global"; // Global scope
+
+function test() {
+    let functionVar = "Inside function"; // Function scope
+    if (true) {
+        let blockVar = "Inside block"; // Block scope
+    }
+}
+```
+
+---
+
+### **9️⃣ JavaScript Closures**  
+A **closure** is a function that **remembers** variables from its outer scope even after execution.
+
+#### **Example:**
+
+```javascript
+function outerFunction(outerValue) {
+    return function innerFunction(innerValue) {
+        console.log(`Outer: ${outerValue}, Inner: ${innerValue}`);
+    };
+}
+const closureExample = outerFunction("Hello");
+closureExample("World");
+```
+
+ ---
+
+### **10 JS Conditions and Loops**
+ 
+
+In JavaScript, **conditions** are used to make decisions in code, and **loops** are used to execute a block of code multiple times. Let's break down each concept step by step.
 
 ---
 
