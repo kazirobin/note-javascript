@@ -8,10 +8,10 @@ Here’s a **daily study plan** to master **vanilla JavaScript** in **3 months (
 
 ### **Week 1: JavaScript Basics**
 
-🔹 **[Day 1:](./month_1/week_1/day_1/README.md)** JavaScript Introduction, Setup (VS Code, Console, Debugging)  
-🔹 **[Day 2:](./month_1/week_1/day_2/README.md)** Variables (`var`, `let`, `const`), Data Types (String, Number, Boolean)  
-🔹 **[Day 3:](./month_1/week_1/day_3/README.md)** Operators (`+`, `-`, `*`, `/`, `%`, `++`, `--`, `&&`, `||`)  
-🔹 **[Day 4:](./month_1/week_1/day_4/README.md)** Conditionals (`if-else`, `switch-case`)  
+🔹 **[Day 1:](./month_1/week_1/day_1)** JavaScript Introduction, Setup (VS Code, Console, Debugging)  
+🔹 **[Day 2:](./month_1/week_1/day_2)** Variables (`var`, `let`, `const`), Data Types (String, Number, Boolean)  
+🔹 **[Day 3:](./month_1/week_1/day_3)** Operators (`+`, `-`, `*`, `/`, `%`, `++`, `--`, `&&`, `||`)  
+🔹 **[Day 4:](./month_1/week_1/day_4)** Conditionals (`if-else`, `switch-case`)  
 🔹 **Day 5:** Loops (`for`, `while`, `do-while`)  
 🔹 **Day 6:** Functions (Declaration, Expression, Arrow Functions)  
 🔹 **Day 7:** **Practice LeetCode Easy Problems:** FizzBuzz, Reverse String
