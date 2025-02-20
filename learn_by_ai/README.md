@@ -12,16 +12,16 @@ Here’s a **daily study plan** to master **vanilla JavaScript** in **3 months (
 🔹 **[Day 2:](./month_1/week_1/day_2)** Variables (`var`, `let`, `const`), Data Types (String, Number, Boolean)  
 🔹 **[Day 3:](./month_1/week_1/day_3)** Operators (`+`, `-`, `*`, `/`, `%`, `++`, `--`, `&&`, `||`)  
 🔹 **[Day 4:](./month_1/week_1/day_4)** Conditionals (`if-else`, `switch-case`)  
-🔹 **Day 5:** Loops (`for`, `while`, `do-while`)  
-🔹 **Day 6:** Functions (Declaration, Expression, Arrow Functions)  
-🔹 **Day 7:** **Practice LeetCode Easy Problems:** FizzBuzz, Reverse String
+🔹 **[Day 5:](./month_1/week_1/day_5)** Loops (`for`, `while`, `do-while`)  
+🔹 **[Day 6](./month_1/week_1/day_6):** Functions (Declaration, Expression, Arrow Functions)  
+🔹 **[Day 7:](./month_1/week_1/day_7)** **Practice LeetCode Easy Problems:** FizzBuzz, Reverse String
 
 ---
 
 ### **Week 2: Arrays & Objects**
 
-🔹 **Day 8:** Arrays Basics (`push`, `pop`, `shift`, `unshift`)  
-🔹 **Day 9:** Array Methods (`map`, `filter`, `reduce`, `sort`)  
+🔹 **[Day 8:](./month_1/week_1/day_8)** Arrays Basics (`push`, `pop`, `shift`, `unshift`)  
+🔹 **[Day 9:](./month_1/week_1/day_9)** Array Methods (`map`, `filter`, `reduce`, `sort`)  
 🔹 **Day 10:** Objects (`key-value`, `Object.keys()`, `Object.values()`)  
 🔹 **Day 11:** Destructuring, Spread (`...`), Rest Parameter  
 🔹 **Day 12:** Higher Order Functions, Callbacks  
