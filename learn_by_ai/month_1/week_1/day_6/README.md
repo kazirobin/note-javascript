@@ -1,138 +1,157 @@
-### **📚 Day 6: JavaScript Functions (Regular & Arrow Functions)**  
-Welcome to Day 6! 🎉 Today, we’ll cover:  
-✅ Function Basics (`function` keyword)  
-✅ Function Parameters & Return Values  
-✅ Arrow Functions (`=>`)  
-✅ Function Expressions vs Declarations  
-✅ Default Parameters & Rest Parameters  
+### **📚 Day 6: JavaScript Functions (Declaration, Expression, Arrow Functions)**  
+
+Functions are **reusable blocks of code** that perform a specific task. Today, we'll cover:  
+✅ Function **Declaration**  
+✅ Function **Expression**  
+✅ **Arrow Functions**  
+✅ **Parameters & Arguments**  
+✅ **Return Statements**  
+✅ **Higher-Order Functions**  
 
 ---
 
-## **🔹 1. Function Basics**  
-Functions **group reusable code** to make programming easier.  
+## **🔹 1. Function Declaration**  
+A function declaration defines a function **with a name**.  
 
-📌 **Syntax:**  
+✅ **Syntax:**  
 ```js
-function functionName() {
-    // Code to execute
+function functionName(parameters) {
+    // Code block
+    return value;
 }
 ```
 
 ✅ **Example:**  
 ```js
-function greet() {
-    console.log("Hello, World!");
+function greet(name) {
+    return "Hello, " + name + "!";
 }
-greet();  // Output: Hello, World!
+console.log(greet("Alice"));  // Output: Hello, Alice!
+```
+
+✅ **Function Hoisting**:  
+Function declarations are **hoisted** (moved to the top of the code before execution), so they can be called **before** they are defined.  
+
+```js
+console.log(sayHello());  // ✅ Works because of hoisting
+function sayHello() {
+    return "Hello!";
+}
 ```
 
 ---
 
-## **🔹 2. Function Parameters & Return Values**  
-Functions can **take input (parameters)** and **return output**.  
+## **🔹 2. Function Expression**  
+A function expression **stores a function inside a variable**.  
 
-📌 **Example:**  
+✅ **Syntax:**  
 ```js
-function add(a, b) {
-    return a + b;
-}
-console.log(add(5, 3));  // Output: 8
+const functionName = function(parameters) {
+    return value;
+};
 ```
 
-✅ **Multiple parameters:**  
+✅ **Example:**  
 ```js
-function greet(name, age) {
-    return `Hello ${name}, you are ${age} years old.`;
-}
-console.log(greet("Alice", 25));  // Output: Hello Alice, you are 25 years old.
+const add = function(a, b) {
+    return a + b;
+};
+console.log(add(3, 5));  // Output: 8
+```
+
+❌ **Not Hoisted:** Function expressions **cannot** be called before they are defined.  
+
+```js
+console.log(subtract(10, 5));  // ❌ Error: Cannot access 'subtract' before initialization
+const subtract = function(a, b) {
+    return a - b;
+};
 ```
 
 ---
 
 ## **🔹 3. Arrow Functions (`=>`)**  
-A shorter way to write functions.  
+Arrow functions provide a **shorter syntax** for writing functions.  
 
-📌 **Syntax:**  
+✅ **Syntax:**  
 ```js
 const functionName = (parameters) => expression;
 ```
 
-✅ **Example (Arrow Function):**  
+✅ **Example:**  
 ```js
 const multiply = (a, b) => a * b;
-console.log(multiply(4, 5));  // Output: 20
+console.log(multiply(4, 2));  // Output: 8
 ```
 
-✅ **Arrow Function with `{}` & `return`:**  
+🚀 **Key Differences from Regular Functions:**  
+1️⃣ **No `function` keyword**  
+2️⃣ **No `{}` needed** if only **one line**  
+3️⃣ **No `return` needed** if it's an implicit return  
+
+✅ **Example with One Parameter:**  
 ```js
-const subtract = (a, b) => {
-    return a - b;
-};
-console.log(subtract(10, 4));  // Output: 6
+const square = x => x * x;  // No need for parentheses if one parameter
+console.log(square(5));  // Output: 25
 ```
 
-✅ **Arrow Function with One Parameter:**  
+✅ **Example with No Parameters:**  
 ```js
-const square = num => num * num;
-console.log(square(6));  // Output: 36
+const hello = () => "Hello, World!";
+console.log(hello());  // Output: Hello, World!
 ```
 
 ---
 
-## **🔹 4. Function Expressions vs Declarations**  
-### **Function Declaration (Hoisted)**
-Can be called **before** the function is defined.  
-```js
-console.log(hello());  // Works!
-
-function hello() {
-    return "Hello!";
-}
-```
-
-### **Function Expression (Not Hoisted)**
-Stored in a variable and **can’t be used before declaration**.  
-```js
-const hello = function() {
-    return "Hello!";
-};
-console.log(hello());  // Works, but must be after declaration
-```
-
----
-
-## **🔹 5. Default Parameters**  
-📌 **Example:**  
+## **🔹 4. Function Parameters & Default Values**  
+✅ **Function with Default Parameters:**  
 ```js
 function greet(name = "Guest") {
-    console.log(`Hello, ${name}!`);
+    return "Hello, " + name + "!";
 }
-greet();         // Output: Hello, Guest!
-greet("John");   // Output: Hello, John!
+console.log(greet());  // Output: Hello, Guest!
+console.log(greet("Alice"));  // Output: Hello, Alice!
 ```
 
----
-
-## **🔹 6. Rest Parameters (`...`)**
-Allows a function to take **multiple arguments** as an array.
-
-📌 **Example:**  
+✅ **Arrow Function with Default Parameters:**  
 ```js
-function sum(...numbers) {
-    return numbers.reduce((total, num) => total + num, 0);
-}
-console.log(sum(1, 2, 3, 4));  // Output: 10
+const multiply = (a, b = 2) => a * b;
+console.log(multiply(5));  // Output: 10
 ```
 
 ---
 
-## **📝 Task for You**
-1️⃣ Create a function that takes a **name** and prints `"Hello, Name!"`.  
-2️⃣ Write an **arrow function** to calculate the square of a number.  
-3️⃣ Create a function with **default parameters** (`name = "Guest"`).  
-4️⃣ Use the **rest parameter** to sum all numbers passed to a function.  
+## **🔹 5. Higher-Order Functions (Functions that Take Functions as Arguments)**  
+📌 Functions can be **passed as arguments** to other functions.  
+
+✅ **Example: Using `forEach()` (Built-in Higher-Order Function)**  
+```js
+let numbers = [1, 2, 3, 4];
+
+numbers.forEach(function(num) {
+    console.log(num * 2);  // Output: 2, 4, 6, 8
+});
+```
+
+✅ **Example: Passing a Function to Another Function**  
+```js
+function operate(a, b, operation) {
+    return operation(a, b);
+}
+
+const add = (x, y) => x + y;
+console.log(operate(4, 5, add));  // Output: 9
+```
 
 ---
 
-🎯 **Next Lesson (Day 8): JavaScript Arrays (Methods & Manipulation)!**  
+## **📝 Task for You**  
+1️⃣ Write a function declaration that **calculates the area of a rectangle**.  
+2️⃣ Convert the function to a **function expression**.  
+3️⃣ Convert it to an **arrow function**.  
+4️⃣ Use a **higher-order function** to apply a mathematical operation.  
+
+---
+
+🎯 **Next Lesson (Day 7): Practice LeetCode Easy Problems!**  
 Let me know if you have any questions! 🚀
