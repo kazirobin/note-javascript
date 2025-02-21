@@ -99,5 +99,7 @@ console.log(isAnagramSort("rat", "car")); // Output: false
 
 ---
 
-🎯 **Next Lesson (Day 33): More String Problems!**  
+🎯 **[Next Lesson (Day 33): More String Problems](../day_33/)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
+
+[**Back to Home**](../../../)

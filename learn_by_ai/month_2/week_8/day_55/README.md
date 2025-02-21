@@ -126,5 +126,7 @@ console.log(exist(board, "ABCB"));   // false
 
 ---
 
-🎯 **Next Lesson (Day 56): **Revision & Practice**!**  
+🎯 **[Next Lesson (Day 56): **Revision & Practice](../day_56/)!**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

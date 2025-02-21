@@ -144,5 +144,7 @@ subject.notify('Hello Observers!');
 
 ---
 
-🎯 **Next Lesson (Day 66): **LeetCode Hard Problems:** LRU Cache!**  
+🎯 **[Next Lesson (Day 66): **LeetCode Hard Problems:** LRU Cache](../day_66/)!**  
 Let me know if you have any questions about these design patterns! 🚀
+
+[**Back to Home**](../../../)

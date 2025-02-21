@@ -53,5 +53,7 @@ function invertTree(root) {
 
 ---
 
-🎯 **Next Lesson (Day 58): DOM Manipulation Basics (`getElementById`, `querySelector`)  !**  
+🎯 **[Next Lesson (Day 57): DOM Manipulation Basics (`getElementById`, `querySelector`)](../../../month_3/week_9/day_57/)  !**  
 Let me know if you need explanations or problem hints! 🚀
+
+[**Back to Home**](../../../)

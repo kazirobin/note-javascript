@@ -111,5 +111,7 @@ fetchWithErrorHandling();
 
 ---
 
-🎯 **Next Lesson (Day 26): Error Handling (`try...catch`)!**  
+🎯 **[Next Lesson (Day 26): Error Handling (`try...catch`)](../day_26/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

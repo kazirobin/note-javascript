@@ -153,6 +153,7 @@ console.log(operate(4, 5, add));  // Output: 9
 
 ---
 
-🎯 **Next Lesson (Day 7): Practice LeetCode Easy Problems!**  
+🎯 **[Next Lesson (Day 7): Practice LeetCode Easy Problems](../day_7/)!**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

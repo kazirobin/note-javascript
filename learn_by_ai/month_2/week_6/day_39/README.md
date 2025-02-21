@@ -68,5 +68,7 @@ console.log(longestConsecutive([100, 4, 200, 1, 3, 2])); // Output: 4
 
 ---
 
-🎯 **Next Lesson (Day 40): **Project:** URL Shortener Using HashMap!**  
+🎯 **[Next Lesson (Day 40): **Project:** URL Shortener Using HashMap](../day_40/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

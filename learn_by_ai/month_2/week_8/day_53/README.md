@@ -85,5 +85,7 @@ console.log(numIslands(grid)); // Output: 1
 
 ---
 
-🎯 **Next Lesson (Day 54): Trie Data Structure!**  
+🎯 **[Next Lesson (Day 54): Trie Data Structure](../day_54/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

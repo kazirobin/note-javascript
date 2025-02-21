@@ -118,5 +118,7 @@ console.log(trie.search("app"));   // true
 
 ---
 
-🎯 **Next Lesson (Day 55): **LeetCode:** Word Search (Backtracking)!**  
+🎯 **[Next Lesson (Day 55): **LeetCode:** Word Search (Backtracking)](../day_55/)!**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

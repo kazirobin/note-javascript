@@ -142,5 +142,7 @@ console.log(minStack.getMin());  // Output: -2
 
 ---
 
-🎯 **Next Lesson (Day 45): Singly & Doubly Linked Lists!**  
+🎯 **[Next Lesson (Day 45): Singly & Doubly Linked Lists](../day_45/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

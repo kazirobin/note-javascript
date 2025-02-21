@@ -78,5 +78,7 @@ Here are some ideas for enhancing your custom throttle function or project:
 
 ---
 
-🎯 **Next Lesson (Day 68): **Revision & Debugging**!**  
+🎯 **[Next Lesson (Day 68-69): **Revision & Debugging](../day_68-69/)!**  
 Let me know if you have any questions about the custom throttle function or need help with anything else! 🚀
+
+[**Back to Home**](../../../)

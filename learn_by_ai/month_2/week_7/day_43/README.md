@@ -106,5 +106,7 @@ console.log(queue.isEmpty()); // Output: false
 
 ---
 
-🎯 **Next Lesson (Day 44): **LeetCode:** Valid Parentheses, Min Stack!**  
+🎯 **[Next Lesson (Day 44): **LeetCode:** Valid Parentheses, Min Stack](../day_44/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

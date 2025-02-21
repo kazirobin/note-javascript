@@ -147,6 +147,7 @@ console.log(Boolean("Hi"));  // true
 
 ---
 
-🎯 **Next Lesson (Day 3): JavaScript Operators!**  
+🎯 **[Next Lesson (Day 3): JavaScript Operators](../day_3/)!**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

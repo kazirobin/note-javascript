@@ -181,6 +181,7 @@ false
 
 ---
 
-🎯 **Next Lesson (Day 8): JavaScript Objects (Properties, Methods, & Destructuring)!**  
+🎯 **[Next Lesson (Day 8): JavaScript Objects (Properties, Methods, & Destructuring)](../../week_2/day_8/)!**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

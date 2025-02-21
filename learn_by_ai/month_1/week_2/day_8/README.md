@@ -112,6 +112,7 @@ console.log(queue);  // Output: ["C"]
 
 ---
 
-🎯 **Next Lesson (Day 9): Advanced Array Methods (`map`, `filter`, `reduce`, `sort`)**  
+🎯 **[Next Lesson (Day 9): Advanced Array Methods (`map`, `filter`, `reduce`, `sort`)](../day_9-1/)**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

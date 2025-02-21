@@ -138,5 +138,7 @@ bst.inOrderTraversal(bst.root); // Output: 2, 3, 4, 5, 7
 
 ---
 
-🎯 **Next Lesson (Day 51): **LeetCode:** Invert Binary Tree  !**  
+🎯 **[Next Lesson (Day 51): **LeetCode:** Invert Binary Tree](../day_51/)  !**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

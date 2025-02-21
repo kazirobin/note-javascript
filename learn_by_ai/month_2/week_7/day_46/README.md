@@ -108,5 +108,7 @@ while (current) {
 
 ---
 
-🎯 **Next Lesson (Day 47): **Project:** Custom Stack Implementation  !**  
+🎯 **[Next Lesson (Day 47): **Project:** Custom Stack Implementation](../day_47/)  !**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

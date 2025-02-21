@@ -60,5 +60,7 @@ To build your project, consider the following structure:
 
 ---
 
-🎯 **Next (Day 77-78): Refactor and Improve Performance**  
+🎯 **[Next (Day 77-78): Refactor and Improve Performance](../day_77-78/)**  
 Let me know if you have any questions or need guidance while building your project! 🚀
+
+[**Back to Home**](../../../)

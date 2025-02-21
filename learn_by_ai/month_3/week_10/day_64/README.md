@@ -90,5 +90,7 @@ window.addEventListener("scroll", throttle(() => {
 
 ---
 
-🎯 **Next Lesson (Day 65): Factory, Singleton, Observer Patterns!**  
+🎯 **[Next Lesson (Day 65): Factory, Singleton, Observer Patterns](../day_65/)!**  
 Let me know if you have any questions about debouncing and throttling! 🚀
+
+[**Back to Home**](../../../)

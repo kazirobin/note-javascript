@@ -68,5 +68,7 @@ executeAll([asyncFunc1, asyncFunc2]).then(console.log); // [1, 2]
 
 ---
 
-🎯 **Next Lesson (Day 28): **Project:** Weather App using Fetch API!**  
+🎯 **[Next Lesson (Day 28): **Project:** Weather App using Fetch API](../day_28/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

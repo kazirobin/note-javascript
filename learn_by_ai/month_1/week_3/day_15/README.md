@@ -160,6 +160,7 @@ counter(); // Output: 2
 
 ---
 
-🎯 **Next Lesson (Day 16): Closures, Hoisting!**  
+🎯 **[Next Lesson (Day 16): Closures, Hoisting](../day_16/) !**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

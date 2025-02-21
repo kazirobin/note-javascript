@@ -69,5 +69,7 @@ During these two days, we’ll focus on revising the concepts we’ve learned so
 
 ---
 
-🎯 **Next Lesson (Day 50): Binary Trees, Binary Search Trees (BST)  !**  
+🎯 **[Next Lesson (Day 50): Binary Trees, Binary Search Trees (BST)](../../week_8/day_50/)  !**  
 Let me know if you have any questions or need assistance with the problems! 🚀
+
+[**Back to Home**](../../../)

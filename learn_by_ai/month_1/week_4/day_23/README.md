@@ -121,5 +121,7 @@ fetchData()
 
 ---
 
-🎯 **Next Lesson (Day 24): Async/Await!**  
+🎯 **[Next Lesson (Day 24): Async/Await](../day_24/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)
