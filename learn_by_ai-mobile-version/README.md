@@ -156,7 +156,7 @@ Here’s a **daily study plan** to master **vanilla JavaScript** in **3 months (
 ### **📚 Recommended Resources**
 
 📖 **Books:**
-E
+
 - _You Don’t Know JS_ by Kyle Simpson
 - _Eloquent JavaScript_ by Marijn Haverbeke
 
