@@ -149,3 +149,4 @@ console.log(Boolean("Hi"));  // true
 
 🎯 **Next Lesson (Day 3): JavaScript Operators!**  
 Let me know if you have any questions! 🚀
+[**Back to Home**](../../../)

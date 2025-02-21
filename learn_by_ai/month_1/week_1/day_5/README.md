@@ -135,3 +135,4 @@ colors.forEach(function(color) {
 
 🎯 **Next Lesson (Day 6): Functions (Declaration, Expression, Arrow Functions)  !**  
 Let me know if you have any questions! 🚀
+[**Back to Home**](../../../)

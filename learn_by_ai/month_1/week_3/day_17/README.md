@@ -164,3 +164,4 @@ rex.bark(); // Output: "Woof! Woof!"
 
 🎯 **Next Lesson (Day 18): ES6 Classes, Constructor Functions!**  
 Let me know if you have any questions! 🚀
+[**Back to Home**](../../../)

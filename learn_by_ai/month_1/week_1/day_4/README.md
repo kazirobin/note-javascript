@@ -123,3 +123,4 @@ console.log(message);  // Output: "Adult"
 
 🎯 **Next Lesson (Day 5): JavaScript Loops (`for`, `while`, `do-while`)!**  
 Let me know if you have any questions! 🚀
+[**Back to Home**](../../../)
