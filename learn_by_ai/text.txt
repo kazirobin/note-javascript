@@ -1,6 +1,0 @@
-Local Storage & Session Storage
-JavaScript Event Listeners & Event Delegation
-More Sliding Window Problems
-More String Problems
-More Array & Dynamic Programming Problems
-Review & Optimization Techniques

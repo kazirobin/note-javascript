@@ -1,0 +1,14 @@
+Local Storage & Session Storage
+JavaScript Event Listeners & Event Delegation
+More Sliding Window Problems
+More String Problems
+More Array & Dynamic Programming Problems
+Review & Optimization Techniques
+Exploring Dynamic Programming Techniques
+Introduction to Trees and Tree Traversal
+Advanced Tree Problems and Applications
+Advanced Trie Operations & Applications
+Advanced Backtracking & More Grid Problems
+Graph Algorithms (Dijkstra, Floyd-Warshall, etc.)
+Debouncing & Throttling (Performance Optimization)
+Introduction to APIs – Fetch, Axios, and Asynchronous JavaScript
