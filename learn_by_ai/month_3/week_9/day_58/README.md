@@ -121,5 +121,7 @@ addButton.addEventListener("click", function () {
 
 ---
 
-🎯 **Next Lesson (Day 59):  Local Storage & Cookies!**  
+🎯 **[Next Lesson (Day 59):  Local Storage & Cookies](../day_59/)!**  
 Let me know if you need any explanations! 🚀
+
+[**Back to Home**](../../../)

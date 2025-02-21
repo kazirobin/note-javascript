@@ -53,5 +53,7 @@ In these two days, you'll focus on refactoring your project code and optimizing 
 
 ---
 
-🎯 **Next (Day 79-80): LeetCode Mock Interview**  
+🎯 **[Next (Day 79-80): LeetCode Mock Interview](../day_79-80/)**  
 Let me know if you have any questions about refactoring or performance improvements! 🚀
+
+[**Back to Home**](../../../)

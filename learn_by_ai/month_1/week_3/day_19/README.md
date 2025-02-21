@@ -167,6 +167,7 @@ document.body.appendChild(buttonElement);
 
 ---
 
-🎯 **Next Lesson (Day 20): Modules (`import/export`)!**  
+🎯 **[Next Lesson (Day 20): Modules (`import/export`)](../day_20/) !**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

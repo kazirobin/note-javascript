@@ -89,5 +89,7 @@ console.log(myStack.isEmpty()); // Output: false
 
 ---
 
-🎯 **Next Lesson (Day 48): **Revision & More Problems**!**  
+🎯 **[Next Lesson (Day 48-49): **Revision & More Problems](../day_48-49/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

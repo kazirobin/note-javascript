@@ -88,6 +88,7 @@ console.log(mergeIntervals([[1,3],[2,6],[8,10],[15,18]]));
 
 ---
 
-🎯 **Next Lesson (Day 22): Callbacks, Event Loop!**  
+🎯 **[Next Lesson (Day 22): Callbacks, Event Loop](../../week_4/day_22/) !**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

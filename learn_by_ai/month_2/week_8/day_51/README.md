@@ -96,5 +96,7 @@ inOrderTraversal(invertedRoot); // Output: 9, 7, 6, 4, 3, 2, 1
 
 ---
 
-🎯 **Next Lesson (Day 52): Graphs, BFS & DFS!**  
+🎯 **[Next Lesson (Day 52): Graphs, BFS & DFS](../day_52/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

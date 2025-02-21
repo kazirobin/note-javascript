@@ -176,5 +176,7 @@ doublyLinkedList.print(); // Output: 1 <-> 3
 
 ---
 
-🎯 **Next Lesson (Day 46): **LeetCode:** Reverse Linked List  !**  
+🎯 **[Next Lesson (Day 46): **LeetCode:** Reverse Linked List](../day_46/)  !**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

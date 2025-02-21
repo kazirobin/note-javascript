@@ -160,5 +160,7 @@ document.getElementById("changeColor").addEventListener("click", () => {
 
 ---
 
-🎯 **Next Lesson (Day 63): Memory Management, Garbage Collection  !**  
+🎯 **[Next Lesson (Day 63): Memory Management, Garbage Collection](../../week_10/day_63/)  !**  
 Let me know if you need more debugging examples! 🚀
+
+[**Back to Home**](../../../)

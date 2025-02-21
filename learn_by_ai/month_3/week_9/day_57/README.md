@@ -235,5 +235,7 @@ heading.remove(); // Removes #title from the DOM
 
 ---
 
-🎯 **Next Lesson (Day 59): Event Delegation & Dynamic Event Handling!**  
+🎯 **[Next Lesson (Day 58): Event Delegation & Dynamic Event Handling](../day_59/)!**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

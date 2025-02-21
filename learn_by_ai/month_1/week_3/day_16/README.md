@@ -184,6 +184,7 @@ function demoHoisting() {
 
 ---
 
-🎯 **Next Lesson (Day 17): Prototypes & Inheritance !**  
+🎯 **[Next Lesson (Day 17): Prototypes & Inheritance](../day_17/) !**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

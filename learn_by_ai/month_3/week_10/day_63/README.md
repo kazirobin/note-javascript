@@ -98,5 +98,7 @@ function addUser(name) {
 
 ---
 
-🎯 **Next Lesson (Day 64): Debouncing & Throttling (Performance Optimization)!**  
+🎯 **[Next Lesson (Day 64): Debouncing & Throttling (Performance Optimization)](../day_64/)!**  
 Let me know if you have any questions about memory management or garbage collection! 🚀
+
+[**Back to Home**](../../../)

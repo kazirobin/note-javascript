@@ -104,5 +104,7 @@ fetchMultipleData();
 
 ---
 
-🎯 **Next Lesson (Day 25): Fetch API, Making API Requests  !**  
+🎯 **[Next Lesson (Day 25): Fetch API, Making API Requests](../day_25/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

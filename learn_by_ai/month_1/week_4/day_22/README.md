@@ -106,5 +106,7 @@ fetchData(processData);
 
 ---
 
-🎯 **Next Lesson (Day 23): Promises (`then`, `catch`, `finally`)!**  
+🎯 **[Next Lesson (Day 23): Promises (`then`, `catch`, `finally`)](../day_23/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

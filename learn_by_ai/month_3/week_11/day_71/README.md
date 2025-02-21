@@ -86,5 +86,7 @@ app.listen(3000, () => {
 
 ---
 
-🎯 **Next Lesson (Day 72): **Mini Project:** Chat App with WebSockets !**  
+🎯 **[Next Lesson (Day 72): **Mini Project:** Chat App with WebSockets](../day_72/) !**  
 Let me know if you have any questions about CORS or security best practices! 🚀
+
+[**Back to Home**](../../../)

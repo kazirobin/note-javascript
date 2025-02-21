@@ -53,5 +53,7 @@ In these two days, you'll prepare for technical interviews by simulating a LeetC
 
 ---
 
-🎯 **Next (Day 81-84): Final Project Deployment & Showcase**  
+🎯 **[Next (Day 81-84): Final Project Deployment & Showcase](../day_81-84/)**  
 Let me know if you have any questions or need tips for the mock interview process! 🚀
+
+[**Back to Home**](../../../)

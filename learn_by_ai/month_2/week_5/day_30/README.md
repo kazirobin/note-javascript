@@ -125,5 +125,7 @@ console.log(getAllSubarrays(arr)); // Output: [[1], [1, 2], [1, 2, 3], [2], [2, 
 
 ---
 
-🎯 **Next Lesson (Day 31): String Manipulation, Anagrams!**  
+🎯 **[Next Lesson (Day 31): String Manipulation, Anagrams](../day_31/)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
+
+[**Back to Home**](../../../)

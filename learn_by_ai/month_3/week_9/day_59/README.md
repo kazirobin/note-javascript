@@ -148,5 +148,7 @@ document.cookie = "username=JohnDoe; expires=Thu, 01 Jan 1970 00:00:00 UTC; path
 
 ---
 
-🎯 **Next Lesson (Day 60): **Mini Project:** To-Do List !**  
+🎯 **[Next Lesson (Day 60): **Mini Project:** To-Do List](../day_60/) !**  
 Let me know if you have any questions! 🚀
+
+[**Back to Home**](../../../)

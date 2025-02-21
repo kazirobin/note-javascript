@@ -54,5 +54,7 @@ Today is dedicated to revising the concepts we've covered in the previous lesson
 
 ---
 
-🎯 **Next Lesson (Day 36): HashMaps, Sets in JavaScript!**  
+🎯 **[Next Lesson (Day 36): HashMaps, Sets in JavaScript](../../week_6/day_36/)!**  
 Let me know if you have any questions or need help with the practice problems! 🚀
+
+[**Back to Home**](../../../)

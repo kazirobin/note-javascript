@@ -69,5 +69,7 @@ During these two days, we'll focus on revising key concepts related to **Perform
 
 ---
 
-🎯 **Next Lesson (Day 70): Web Workers, Service Workers!**  
+🎯 **[Next Lesson (Day 70): Web Workers, Service Workers](../../week_11/day_70/)!**  
 Let me know if you have any questions or need clarification on any concepts during this revision! 🚀
+
+[**Back to Home**](../../../)

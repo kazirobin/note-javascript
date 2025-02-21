@@ -66,5 +66,7 @@ console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
 
 ---
 
-🎯 **Next Lesson (Day 39): Exploring Dynamic Programming Techniques!**  
+🎯 **[Next Lesson (Day 39): Exploring Dynamic Programming Techniques](../day_39/)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
+
+[**Back to Home**](../../../)

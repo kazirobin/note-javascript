@@ -93,5 +93,7 @@ console.log("Word Count:", countWords(testString));
 
 ---
 
-🎯 **Next Lesson (Day 35): Review & Optimization Techniques!**  
+🎯 **[Next Lesson (Day 35): Review & Optimization Techniques](../day_35/)!**  
 Let me know if you have any questions or need help with the project! 🚀
+
+[**Back to Home**](../../../)

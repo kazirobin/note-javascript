@@ -120,5 +120,6 @@ Create a simple layout with an input field, a button, and a list to display task
 
 ---
 
-🎯 **Next Lesson (Day 61): Debouncing & Throttling (Performance Optimization)!**  
+🎯 **[Next Lesson (Day 61-62): Debouncing & Throttling (Performance Optimization)](../day_61-62/)!**  
 Let me know if you need any improvements or explanations! 🚀
+[**Back to Home**](../../../)

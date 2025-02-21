@@ -169,6 +169,7 @@ console.log(MathHelper.subtract(10, 4)); // Output: 6
 
 ---
 
-🎯 **Next Lesson (Day 19): Call, Apply, Bind Methods!**  
+🎯 **[Next Lesson (Day 19): Call, Apply, Bind Methods](../day_19/) !**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)

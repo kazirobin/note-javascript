@@ -140,6 +140,7 @@ console.log(status);  // Output: Adult
 
 ---
 
-🎯 **Next Lesson (Day 4): JavaScript Conditionals (`if-else`, `switch`)!**  
+🎯 **[Next Lesson (Day 4): JavaScript Conditionals (`if-else`, `switch`)](../day_4/)!**  
 Let me know if you have any questions! 🚀
+
 [**Back to Home**](../../../)
