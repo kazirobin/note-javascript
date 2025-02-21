@@ -140,4 +140,4 @@ console.log(remaining);  // Output: [30, 40, 50]
 🎯 **[Next Lesson (Day 12): Higher Order Functions, Callbacks](../day_12/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

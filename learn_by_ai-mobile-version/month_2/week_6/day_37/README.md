@@ -71,4 +71,4 @@ console.log(twoSum([3, 3], 6)); // Output: [0, 1]
 🎯 **[Next Lesson (Day 38): LeetCode: Group Anagrams](../day_38/README.md) !**  
 Let me know if you have any questions or need help with the implementation! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

@@ -112,4 +112,4 @@ console.log(isPalindrome(10));   // Output: false
 🎯 **[Next Lesson (Day 15): `this` Keyword, Lexical Scope](../../week_3/day_15/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

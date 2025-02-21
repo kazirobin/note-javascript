@@ -105,4 +105,4 @@ console.log(areAnagramsFrequency("Hello", "World")); // false
 🎯 **N[ext Lesson (Day 32): LeetCode: Longest Substring, Valid Anagram](../day_32/README.md)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

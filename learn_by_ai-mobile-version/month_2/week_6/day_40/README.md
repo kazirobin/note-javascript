@@ -74,4 +74,4 @@ console.log(urlShortener.decode(shortUrl)); // Output: https://www.example.com/s
 🎯 **[Next Lesson (Day 41-42): Exploring More Advanced Projects](../day_41-42/README.md)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

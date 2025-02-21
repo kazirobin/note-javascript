@@ -124,4 +124,4 @@ console.log(triple(5));  // Output: 15
 🎯 **[Next Lesson (Day 13): Recursion Basics](../day_13/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

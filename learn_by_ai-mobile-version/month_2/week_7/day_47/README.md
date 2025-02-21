@@ -92,4 +92,4 @@ console.log(myStack.isEmpty()); // Output: false
 🎯 **[Next Lesson (Day 48-49): **Revision & More Problems](../day_48-49/README.md)!**  
 Let me know if you have any questions or need help with the implementation! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

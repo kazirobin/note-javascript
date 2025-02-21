@@ -99,4 +99,4 @@ console.log(Object.values(car));
 🎯 **[Next Lesson (Day 11): Object Methods (`Object.entries()`, `hasOwnProperty()`, `this`)](../day_11/README.md)**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

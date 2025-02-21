@@ -122,4 +122,4 @@ console.log(lruCache.get(4)); // Returns 4
 🎯 **[Next Lesson (Day 67): Project: Custom Throttle Function](../day_67/README.md)!**  
 Let me know if you have any questions about the LRU Cache or any other topics! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

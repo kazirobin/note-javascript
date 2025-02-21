@@ -98,4 +98,4 @@ console.log(trap([0,1,0,2,1,0,1,3,2,1,2,1])); // Output: 6
 🎯 **[Next Lesson (Day 34): Mini Project: String Formatter](../day_34/README.md)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

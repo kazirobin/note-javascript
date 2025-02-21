@@ -113,4 +113,4 @@ self.addEventListener('install', (event) => {
 🎯 **[Next Lesson (Day 71): CORS, Security Best Practices](../day_71/README.md)!**  
 Let me know if you have any questions about Web Workers or Service Workers! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

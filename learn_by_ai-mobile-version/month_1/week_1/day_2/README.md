@@ -150,4 +150,4 @@ console.log(Boolean("Hi"));  // true
 🎯 **[Next Lesson (Day 3): JavaScript Operators](../day_3/README.md)!**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

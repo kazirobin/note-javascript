@@ -103,4 +103,4 @@ console.log(numbers);  // Output: [10, 7, 3, 1]
 🎯 **[Next Lesson (Day 9-2): JavaScript String Methods](../day_9-2/README.md)!**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

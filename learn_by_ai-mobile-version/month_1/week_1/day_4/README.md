@@ -124,4 +124,4 @@ console.log(message);  // Output: "Adult"
 🎯 **[Next Lesson (Day 5): JavaScript Loops (`for`, `while`, `do-while`)](../day_5/README.md)!**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

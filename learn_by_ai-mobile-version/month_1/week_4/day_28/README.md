@@ -129,4 +129,4 @@ function displayWeather(data) {
 🎯 **[Next Lesson (Day 29): Array Basics, Two Pointers Technique](../../../month_2/week_5/day_29/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

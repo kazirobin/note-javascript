@@ -85,6 +85,6 @@ The sum is: 15
 2️⃣ Write a simple program in `script.js` to multiply two numbers and print the result.  
 
 **Once you’re done, let me know if you have any questions!** 
-🎯 **[Next Lesson (Day 2): JavaScript Variables & Data Types](../day_2/README md)!**
+🎯 **[Next Lesson (Day 2): JavaScript Variables & Data Types](../day_2/README.md)!**
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

@@ -161,4 +161,4 @@ server.listen(3000, () => {
 🎯 **[Next Lesson (Day 73-74): Revision & Debugging](../day_73-74/README.md)!**  
 Let me know if you have any questions about the chat app or WebSockets! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

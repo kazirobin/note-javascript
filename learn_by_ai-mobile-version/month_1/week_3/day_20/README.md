@@ -124,4 +124,4 @@ document.getElementById("load").addEventListener("click", async () => {
 🎯 **[Next Lesson (Day 21): LeetCode Problems Group Anagrams, Merge Intervals](../day_21/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

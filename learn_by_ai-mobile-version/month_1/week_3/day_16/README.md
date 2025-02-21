@@ -187,4 +187,4 @@ function demoHoisting() {
 🎯 **[Next Lesson (Day 17): Prototypes & Inheritance](../day_17/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

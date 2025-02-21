@@ -137,4 +137,4 @@ console.log(text.lastIndexOf("a"));  // Output: 3
 🎯 **[Next Lesson (Day 10): JavaScript Object Basics](../day_10/README.md)!**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

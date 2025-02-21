@@ -102,4 +102,4 @@ console.log(isAnagramSort("rat", "car")); // Output: false
 🎯 **[Next Lesson (Day 33): More String Problems](../day_33/README.md)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

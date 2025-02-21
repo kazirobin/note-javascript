@@ -319,4 +319,4 @@ console.log(binarySearch([1, 2, 3, 4, 5], 3)); // Output: 2
 🎯 **[Next Lesson (Day 37): LeetCode: Two Sum (HashMap Solution)](../day_37/README.md)!**  
 Let me know if you have any questions or need help with the tasks! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

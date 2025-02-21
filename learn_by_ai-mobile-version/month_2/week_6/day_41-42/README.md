@@ -65,4 +65,4 @@ After completing the practice problems, take some time to reflect on the followi
 🎯 **[Next Lesson (Day 43): Stacks (LIFO), Queues (FIFO)](../../week_7/day_43/README.md)!**  
 Feel free to ask if you have any questions or need help with any specific topics during your revision! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

@@ -301,4 +301,4 @@ console.log(solveNQueens(4));
 🎯 **[Next Lesson (Day 14): LeetCode Problems: Two Sum, Palindrome Number](../day_14/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

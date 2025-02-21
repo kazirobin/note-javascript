@@ -62,4 +62,4 @@ In these two days, we will focus on revising the advanced topics covered in Week
 🎯 **[75-76: Build a Full JavaScript Project](../../week_12/day_75-76/README.md)!**  
 Let me know if you have any questions or if there's anything specific you'd like to review during these days! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)

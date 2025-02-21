@@ -105,4 +105,4 @@ console.log(twoSumSorted([2, 3, 5, 8, 11], 10)); // [0, 3]
 🎯 **[Next Lesson (Day 30): Sliding Window Technique](../day_30/README.md) !**  
 Let me know if you have any questions! 🚀
 
-[**Back to Home**](../../../)
+[**Back to Home**](../../../README.md)
