@@ -1,4 +1,4 @@
-# Complete JavaScript Guide - Basic to Advanced
+# Note - Complete JavaScript Guide - Basic to Advanced
 
 Here's the updated **Table of Contents** with your additional topics included:
 [Learn by AI](./learn_by_ai/README.md)
